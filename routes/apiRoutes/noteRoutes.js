@@ -16,4 +16,12 @@ router.post('/notes', (req, res) => {
     res.json(req.body);
 });
 
+// DELETE request to notes from db.json
+router.delete('/notes/:id', (req, res) => {
+    notes.splice(req.params.id, 1);
+    res.sendFile(__dirname + notes);
+    res.json(req.body);
+});
+
+// exports router
 module.exports = router;
