@@ -1,14 +1,24 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple note-taking application which writes to the page and saves - can also delete items.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Bridgett Valet",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TennCreekBridges/11-Express.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/TennCreekBridges/11-Express/issues"
+  },
+  "homepage": "https://github.com/TennCreekBridges/11-Express#readme"
 }
