@@ -9,7 +9,7 @@ router.get('/notes', (req, res) => {
 });
 
 // POST request to notes at db.json & sets random ID
-router.post('notes', (req, res) => {
+router.post('/notes', (req, res) => {
     req.body.id = uuidv4();
     notes.push(req.body);
     res.sendFile(__dirname + notes);
